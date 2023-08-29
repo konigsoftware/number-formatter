@@ -1,5 +1,6 @@
 {
-  "name": "number-formatter",
+  "name": "@pontosoftware/number-formatter",
+  "version": "1.0.0",
   "type": "module",
   "source": "src/index.ts",
   "exports": {
@@ -9,6 +10,7 @@
   "main": "./dist/number-formatter.cjs",
   "module": "./dist/number-formatter.module.js",
   "unpkg": "./dist/number-formatter.umd.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
