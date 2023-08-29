@@ -1,0 +1,22 @@
+{
+  "name": "number-formatter",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/number-formatter.cjs",
+    "default": "./dist/number-formatter.modern.js"
+  },
+  "main": "./dist/number-formatter.cjs",
+  "module": "./dist/number-formatter.module.js",
+  "unpkg": "./dist/number-formatter.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
